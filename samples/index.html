@@ -5,7 +5,7 @@ title: samples
 <h1>{{ page.title }}</h1>
 <h2>Fictional Science</h2>
 <ul class="samples">
-	  {% for sample in site.samplefolder %}
+	  {% for sample in site.posts %}
 	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.title }}</a></li>
 	  {% endfor %}
 </ul>
