@@ -1,10 +1,13 @@
-#site settings
+#Site settings
 name: Lottie Clarke
-#title: 
-description: ""
+title: Lottie Clarke 
+description: "Lottie Clarke: fiction and non-fiction writer."
 #baseurl: "" 
 #url: "" 
 #tagline: 
+twitter_username: astronomnomy
+tumblr_username: astronomnomy
+
 
 # Build settings
 markdown: kramdown
