@@ -6,9 +6,11 @@ title: Hank Quinlan's Blog
 <ul class="posts">
 
   {% for post in site.posts %}
-  {% if post.posttype == "blog" %}
+  {% if post.posttype %} 
+  {% post.posttype == 'blog' %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
+  {% endif %}
   {% endif %}
     
 </ul>
