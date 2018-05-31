@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Harry Potter Astronomy Textbook: The Cosmic Magical Background"
+posttype: 'blog'
 date: 2012-02-20
 ---
 
