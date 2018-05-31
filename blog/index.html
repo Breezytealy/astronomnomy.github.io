@@ -9,8 +9,8 @@ title: Hank Quinlan's Blog
   {% if post.posttype %} 
   {% if post.posttype == 'blog' %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endif %}
+  {% endif %}
   {% endfor %}
-  {% endif %}
-  {% endif %}
     
 </ul>
