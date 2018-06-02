@@ -9,7 +9,7 @@ title: samples
 	  {% for sample in site.posts %}
 		{% for type in sample.posttype %}
 	            <p> {{ type }} </p>
-                    <p> {{ sample.posttype }} </p>
+                    <p> {{ sample.posttype | join:',' }} </p>
 		{% endfor %}
 	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.title }}</a></li>
 	  {% endfor %}
