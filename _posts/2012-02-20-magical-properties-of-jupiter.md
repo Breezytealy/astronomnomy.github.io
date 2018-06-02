@@ -2,7 +2,7 @@
 layout: post
 title: "Harry Potter Astronomy Textbook: The Magical Properties of Jupiter"
 date: 2012-02-20
-pagetype: "sample"
+pagetype: ["sample","ficsci"]
 ---
 
 ## The Magical Properties of Jupiter
