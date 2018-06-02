@@ -11,9 +11,7 @@ title: samples
 	            <p> {{ type }} </p>
                     <p> {{ sample.posttype }} </p>
 		{% endfor %}
-	  {% if sample.posttype and "blog" in sample.posttype %} 
 	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.title }}</a></li>
-          {% endif %} 
 	  {% endfor %}
 </ul>
 
