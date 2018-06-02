@@ -7,11 +7,11 @@ title: samples
 <h2>beep</h2>
 <ul class="samples">
 	  {% for sample in site.posts %}
-<!--	  {% if post.posttype and post.posttype contains 'sample' and post.posttype contains 'ficsci' %} -->
+{% comment %}	  {% if post.posttype and post.posttype contains 'sample' and post.posttype contains 'ficsci' %} {% endcomment %}
 	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.title }}</a></li>
 		    {% for type in sample.posttype %} <p> {{ type }} </p>
 		    {% endfor %}
-<!--      {% endif %}-->
+{% comment %}      {% endif %} {% endcomment %}
 	  {% endfor %}
 </ul>
 
