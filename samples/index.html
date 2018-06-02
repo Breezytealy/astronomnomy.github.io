@@ -20,6 +20,7 @@ title: samples
 		    {% assign taglist = sample.posttype | join:',' %}
                     {% if taglist contains 'sample' and taglist contains 'scicomm' %}
 	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.title }}</a></li>
+		    {% endif %}
 	  {% endfor %}
 </ul>
 
