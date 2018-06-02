@@ -6,8 +6,8 @@ title: Hank Quinlan's Blog
 <ul class="posts">
 
   {% for post in site.posts %}
-      {% assign taglist = sample.posttype | join:',' %}
-      {% if taglist contains 'sample' and taglist contains 'ficsci' %}
+      {% assign taglist = post.posttype | join:',' %}
+      {% if taglist contains 'blog' %}
       <li><span>{{ post.date | date_to_string }}</span> >> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
       {% endif %}
   {% endfor %}
