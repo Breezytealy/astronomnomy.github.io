@@ -2,6 +2,7 @@
 layout: post
 title: "Harry Potter Astronomy Textbook: The Cosmic Magical Background"
 date: 2012-02-20
+pagetype: "sample"
 ---
 
 ## The Cosmic Backgrounds
