@@ -7,7 +7,8 @@ title: samples
 <h2>boop</h2>
 <ul class="samples">
 	  {% for sample in site.posts %}
-                    {% if sample.posttype in 'sample' and sample.posttype in 'ficsci' %}
+	            {% assign taglist = sample.posttype | join:',' %}
+                    {% if taglist contains 'sample' and taglist contains 'ficsci' %}
 	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.title }}</a></li>
 		    {% endif %}
 	  {% endfor %}
