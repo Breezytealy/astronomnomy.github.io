@@ -8,6 +8,7 @@ title: samples
 	  {% for sample in site.posts %}
 	  {% if post.posttype and 'sample' in post.posttype and 'ficsci' in post.posttype %}
 	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.title }}</a></li>
+          {% endif %}
 	  {% endfor %}
 </ul>
 
