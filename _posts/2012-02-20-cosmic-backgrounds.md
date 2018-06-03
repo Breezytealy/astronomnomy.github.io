@@ -9,10 +9,9 @@ posttype:
 
 ## The Cosmic Backgrounds
 
+What *is* magic, and how did it come to be? Can it be distilled to hold in the hands, or is it an unextractable facet of an object, like colour or temperature? A true understanding of the very essence of magic and its properties has long been sought after, and many believe uncovering its origins can lead to full mastery. 
 
 ### The Ether Hypothesis 
-
-What *is* magic, and how did it come to be? Can it be distilled to hold in the hands, or is it an unextractable facet of an object, like colour or temperature? A true understanding of the very essence of magic and its properties has long been sought after, and many believe uncovering its origins can lead to full mastery. 
 
 For many hundreds of years, magic was considered a fluid-like substance. Whilst attempts had been made to separate and trap magic (using hokum ‘magic nets’ raked through barriers, exploding charmed objects, or by attempting to boil it out of potions), no one had been successful in isolating a single, fixed property of magic itself. It was therefore postulated that magic may exist as a magical ‘ether’ instead - a kind of fabric permeating the entire Universe, with magic’s influence being felt and observed only when invoked or when an object or living being had strong ties to this ether.
 
