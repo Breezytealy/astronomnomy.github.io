@@ -15,9 +15,11 @@ title: samples
 
 <h2>Science Communication</h2>
 <ul class="samples">
-	  {% for sample in site.tags.sample and site.tag.scicomm %}
-	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.project }}: {{ sample.title }}</a></li>
+	  {% for sample in site.tags.sample %}
+	    	{% if sample.tags contains "scicomm" %}
+	            <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{ sample.project }}: {{ sample.title }}</a></li>
 		    <p>{{ sample.excerpt }}</p>
+	        {% endif %}
 	  {% endfor %}
 </ul>
 
