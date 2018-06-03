@@ -5,7 +5,7 @@ title: samples
 <h1>{{ page.title }}</h1>
 <h2>Fictional Science</h2>
 <ul class="samples">
-	  {% for sample in site.tags.sample
+	  {% for sample in site.tags.sample %}
 	    	{% if sample.tags contains "ficsci" %}
 	    	    <li><span> <a href="{{ sample.url }}" title="{{ sample.title }}">{{sample.project}}: {{ sample.title }}</a></li>
 		    <p>{{ sample.excerpt }}</p>
