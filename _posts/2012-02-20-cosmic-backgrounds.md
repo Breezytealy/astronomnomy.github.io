@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Harry Potter Astronomy Textbook: The Cosmic Magical Background"
+project: "Harry Potter Astronomy Textbook"
+title: "The Cosmic Magical Background"
 date: 2012-02-20
 posttype: 
 - sample
