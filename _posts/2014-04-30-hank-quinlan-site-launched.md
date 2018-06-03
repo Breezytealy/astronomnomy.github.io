@@ -3,6 +3,8 @@ layout: post
 title: "Hank Quinlan, Horrible Cop, Launches Site"
 tags: 
 - blog
+- sample
+- scicomm
 date: 2014-04-30
 ---
 
