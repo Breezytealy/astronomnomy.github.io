@@ -1,14 +1,12 @@
 ---
 layout: post
 project: "Harry Potter Astronomy Textbook"
-title: "The Cosmic Magical Background"
+title: "The Cosmic Backgrounds"
 date: 2012-02-20
 posttype: 
 - sample
 - ficsci
 ---
-
-## The Cosmic Backgrounds
 
 What *is* magic, and how did it come to be? Can it be distilled to hold in the hands, or is it an unextractable facet of an object, like colour or temperature? A true understanding of the very essence of magic and its properties has long been sought after, and many believe uncovering its origins can lead to full mastery. <!--more-->
 
